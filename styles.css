@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  color: rgb(0, 0, 0);
+}
+body {
+  padding-top: 70px;
+  background-color: rgb(61, 59, 59);
+
+}
+header {
+  display: flex;
+  background-color: black;
+  height: 70px;
+  align-items:center;
+ justify-content: center;
+ position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.wrap {
+  width: 70%;
+justify-content: space-between;
+align-items: center;
+  display: flex;
+}
+.logo {
+  height: 40px;
+  transition: opacity 0.1s ease;
+}
+.logo:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.wrap ul li {
+  display: inline-block;
+
+}
+.links {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+
+}
+.links:hover {
+  color: rgb(41, 107, 168);
+  font-size: 17px;
+}
+.contact_button {
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+background-color: rgb(41, 107, 168);
+transition: opacity 0.3s ease;}
+
+.contact_button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.hero_container {
+  display: flex;
+  height: 400px;
+  width: 70%;
+  padding-top: 10px;
+
+
+}
+.hero_1 {
+  border-radius: 10px;
+  flex: 1;
+  background-image: url(/960x0\ \(1\).jpg);
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+
+}
+.hero_2 {
+  flex: 1;
+ background-image: url(/960x0.jpg);
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ background-position: center;
+ transition: 0.3s ease;
+}
+.hero_1:hover,
+.hero_2:hover {
+  opacity: 0.8;
+  cursor: pointer;
+
+
+}
+.wrap_hero {
+
+  justify-content: center;
+  align-items: center;
+  
+  display: flex;
+
+}
+.hero_button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+
+}
+
+
+.hero_banner {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.hero_banner_container {
+  background-position: center;
+  background-size: cover;
+  background-image: url(/pexels-tara-winstead-8386356.jpg);
+  width: 100%;
+  height: 80vh;
+  background-attachment: fixed;
+
+
+  
+}
+.hero_banner_text {
+  display: block;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 200px;
+}
+.hero_banner_subtext {
+display: block;
+color: white;
+text-align: center;
+font-style: italic;
+font-size: 24px;
+padding-top: 20px;
+
+}
+.section_container {
+  margin-top: -100px;
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 10px;
+  width: 70%;
+}
+.section-grid {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_1 {
+  background-color: rgb(206, 225, 236);
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.section_1:hover {
+  border: 1px solid rgb(105, 88, 88) ;
+  box-shadow: rgba(252, 252, 252, 0.35) 0px 5px 15px;
+}
+.text-section-head {
+  padding-bottom: 40px;
+}
+.section-subtext {
+  padding-bottom: 30px;
+}
+.clients {
+  display: block;
+  width: 80px;
+
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.clients-div
+{
+
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.clients-div h2 {
+  color: white;
+  font-size: 18px;
+}
+.clients-grid {
+display: flex;
+justify-content: center;
+
+}
+
+.clients:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer_wrapper {
+  background-color: aqua;
+  margin-top: 20px;
+width: 100%;
+  justify-content: center;
+  align-content: center;
+
+  background-color: rgb(12, 12, 12);
+  height: 300px;
+  display: flex;
+
+}
+.footer_div1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links_footer {
+  color: white;
+  text-decoration: none;
+
+}
+.text-container {
+  display: flex;
+  height: 500px;
+  background-color: rgb(26, 118, 192);
+}
+.text-container-div2 {
+  width: 50%;
+ margin-left: 100px;
+ margin-top: 20px;
+}
+.text-container-div2 h1 {
+  font-size: 26px;
+  color: white;
+
+}
+.text-container-image {
+  width: 100%;
+  height: 400px;
+}
